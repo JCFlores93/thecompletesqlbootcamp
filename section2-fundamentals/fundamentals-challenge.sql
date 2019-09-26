@@ -1,1 +1,18 @@
-SELECT first_name, last_name, email FROM customer;
+-- SELECT first_name, last_name, email 
+-- FROM customer;
+-- SELECT DISTINCT rating 
+-- FROM film;
+-- SELECT email 
+-- FROM customer 
+-- WHERE first_name = 'Nancy' AND last_name = 'Thomas';
+-- SELECT description 
+-- FROM film 
+-- WHERE title = 'Outlaw Hanky';
+-- SELECT phone 
+-- FROM address 
+-- WHERE address = '259 Ipoh Drive';
+-- SELECT customer_id, amount 
+-- FROM payment 
+-- ORDER BY amount DESC 
+-- LIMIT 10;
+SELECT title FROM film WHERE film_id IN (1,2,3,4,5);
