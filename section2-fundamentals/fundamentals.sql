@@ -23,6 +23,18 @@
 -- ORDER BY last_name;
 -- SELECT customer_id, amount FROM payment 
 -- WHERE amount NOT BETWEEN 8 AND 9;
-SELECT payment_date, amount FROM payment 
-WHERE payment_date BETWEEN '2007-02-07' AND '2007-02-15';
-
+-- SELECT payment_date, amount FROM payment 
+-- WHERE payment_date BETWEEN '2007-02-07' AND '2007-02-15';
+-- SELECT * 
+-- FROM  rental 
+-- WHERE customer_id IN (1, 2) 
+-- ORDER BY return_date DESC;
+-- SELECT first_name, last_name 
+-- FROM customer
+-- -- WHERE first_name LIKE 'Jen%';
+-- -- WHERE first_name LIKE '%y';
+-- -- WHERE first_name LIKE '%er%';
+-- -- WHERE first_name LIKE '_her%';
+-- -- WHERE first_name NOT LIKE '_her%';
+-- -- WHERE first_name LIKE 'BaR%';
+-- WHERE first_name ILIKE 'BaR%';
